@@ -31,15 +31,13 @@ package com.company;
 //    }
 //}
                             // Практика - Football
-//public class Main {
-//    public static void main(String[] args) {
-//        // write your code here
-//        Player player = new Player();
-//        String[] a = {"1", "5", "10"};
-//        for (String result: a) {
-//            System.out.println(result);
-//        }
-//
-//        }
-//    }
-//}
+public class Main {
+    public static void main(String[] args) {
+        // write your code here
+       Player player = new Player();
+       player.scoreVeryRarely();
+       player.scoreRarely();
+       player.scoreOften();
+     }
+
+}
