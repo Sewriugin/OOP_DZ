@@ -7,18 +7,15 @@ package com.company;
 //        Business business2 = new Business();
 //
 //        String [] massivphotostudio = {"bussines1 ", "bussines2 "};
-//        String result1 = "";
-//        for (int i = 0; i < massivphotostudio.length; i++){
-//            result1 = result1 + massivphotostudio[i];
+//        for (String result1: massivphotostudio) {
+//            System.out.print(result1);
 //        }
-//            System.out.println(result1);
-//
+//        System.out.println();
 //        String [] massivKeyCutting = {"bussines1 ", "bussines2 "};
-//        String result2 = "";
-//        for (int i = 0; i < massivKeyCutting.length; i++){
-//            result2 = result2 + massivKeyCutting[i];
+//        for (String result2: massivKeyCutting) {
+//            System.out.print(result2);
 //        }
-//        System.out.println(result2);
+//        System.out.println();
 //
 //        business1.addToYandexMap();
 //        business1.findKeyMaster();
@@ -34,10 +31,15 @@ package com.company;
 //    }
 //}
                             // Практика - Football
-public class Main {
-    public static void main(String[] args) {
-        // write your code here
-        Player player = new Player();
-
-    }
-}
+//public class Main {
+//    public static void main(String[] args) {
+//        // write your code here
+//        Player player = new Player();
+//        String[] a = {"1", "5", "10"};
+//        for (String result: a) {
+//            System.out.println(result);
+//        }
+//
+//        }
+//    }
+//}
