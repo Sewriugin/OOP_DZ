@@ -41,18 +41,29 @@ package com.company;
 //    }
 //}
                             // Практика - Фигуры
+//public class Main {
+//    public static void main(String[] args) {
+//        // write your code here
+//       RedCube redCube = new RedCube();
+//       Square square = new Square();
+//
+//       redCube.draw();
+//       redCube.paint();
+//
+//       square.draw();
+//       square.flatten();
+//    }
+//
+//}
+
+                        // Практика - Деревья
 public class Main {
     public static void main(String[] args) {
         // write your code here
-       RedCube redCube = new RedCube();
-       Square square = new Square();
-
-       redCube.draw();
-       redCube.paint();
-
-       square.draw();
-       square.flatten();
+       String [] trees = {"AppleTree ", "BirchTree ", "ChristmasTree "};
+        for (String result: trees) {
+            System.out.print(result);
+        }
     }
-
 }
 
