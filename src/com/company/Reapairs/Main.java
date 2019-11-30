@@ -2,7 +2,11 @@ package com.company.Reapairs;
                             //ДЗ - Repair (ремонт)
 public class Main {
     public static void main(String[] args) {
-        House house = new House(3,2,1);
-        house.makeRepairs();
+        Roof roof = new Roof(1);
+        roof.repair();
+        Door door = new Door(2);
+        door.repair();
+        Window window = new Window(3);
+        window.repair();
     }
 }
