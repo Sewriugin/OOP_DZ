@@ -1,6 +1,6 @@
 package com.company;
 
-public abstract class ConioferTree implements Tree{
+public abstract class ConioferTree implements Tree {
     @Override
     public boolean hasLeaves() {
         return false;
